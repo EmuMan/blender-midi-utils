@@ -4,13 +4,13 @@
 
 ___
 
-MIDI Utils is an addon on Blender to add all-around support for MIDI-driven animation in Blender. I've wanted something like this ever since I saw [ANIMUSIC](https://www.animusic.com/)'s stuff, but I couldn't really find anything online on how to actually do it, especially specifically for Blender. There are a few other solutions available online, but I couldn't find an easy to use, comprehensive addon for it, so I decided to make one.
+MIDI Utils is an addon on Blender to add all-around support for MIDI-driven animation in Blender. I've wanted something like this ever since I saw [ANIMUSIC](https://www.animusic.com/)'s stuff, but I couldn't really find anything online on how to actually do it, especially specifically for Blender. There are a few other solutions available online, but I couldn't find an easy to use, comprehensive addon for it, so I decided to make one. [Here is a quick test](https://youtu.be/Duti3pvmtCU) I threw together showcasing what can be done so far.
 
 ## Installation
 
 ___
 
-Before you install MIDI Utils, you need to install Mido, a Python library for MIDI, through PIP, Python's package installer. Since Blender uses its own version of Python, it needs to be installed in a special manner. Open a command prompt and type in `cd C:\Program Files\Blender Foundation\Blender\2.80\python\bin`, replacing the path with the correct one for your OS/installation if it's different. Then, run `python.exe -m pip install mido`, or `./python -m pip install mido` if you're on Linux/MacOS (not tested but should work?). The installation should complete without any errors.
+Before you install MIDI Utils, you need to install Mido, a Python library for MIDI, through PIP, Python's package installer. Since Blender uses its own version of Python, it needs to be installed in a special manner. Open a command prompt and type in `cd "C:\Program Files\Blender Foundation\Blender\2.80\python\bin"`, replacing the path with the correct one for your OS/installation if it's different. Then, run `python.exe -m pip install mido`, or `./python -m pip install mido` if you're on Linux/MacOS (not tested but should work?). The installation should complete without any errors.
 
 Installing MIDI Utils is easy. Simply click the green "Clone or download" button and then the "Download ZIP" button that comes up. You can then go into Blender and install the addon by following Edit -> Preferences -> Addons -> Install. Navigate to wherever the ZIP file downloaded and install it. It should pop up as an addon, where you can tick the box to enable it. You'll find the panel under a tab called "MIDI Utils" in the 3D viewport when you hit "N".
 
